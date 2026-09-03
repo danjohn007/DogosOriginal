@@ -1,0 +1,10 @@
+{
+    "name": "losdogosoriginales/landing",
+    "description": "Landing page de Los Dogos Originales",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.0",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

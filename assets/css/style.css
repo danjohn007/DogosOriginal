@@ -398,10 +398,6 @@ html.is-intro-active body { overflow: hidden; height: 100%; }
   max-width: 14ch;
 }
 
-/* Statement full-bleed divider */
-.statement { line-height: 0; }
-.statement__media img { width: 100%; max-height: 640px; object-fit: cover; }
-
 /* Feature banner (imagen ancha dentro de sección) */
 .feature-banner {
   margin-bottom: 56px;

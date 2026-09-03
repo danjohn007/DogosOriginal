@@ -38,9 +38,3 @@ if (!defined('SITE_ACCESS')) {
     </div>
   </div>
 </section>
-
-<section class="statement reveal">
-  <div class="statement__media">
-    <img src="/assets/img/gallery/hero-bienvenida.jpg" alt="Nuestro sabor único te espera — Los Dogos Originales" loading="lazy">
-  </div>
-</section>

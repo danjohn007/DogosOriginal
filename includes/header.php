@@ -12,6 +12,7 @@ if (!defined('SITE_ACCESS')) {
 <title><?= htmlspecialchars(SITE_NAME) ?> · <?= htmlspecialchars(SITE_TAGLINE) ?></title>
 <meta name="description" content="<?= htmlspecialchars(SITE_DESCRIPTION) ?>">
 <meta name="theme-color" content="#0e0e10">
+<meta name="facebook-domain-verification" content="1l56ghodej9bni6bc0yag5tx6xqr70" />
 <link rel="canonical" href="<?= htmlspecialchars(SITE_URL) ?>">
 
 <!-- Open Graph -->

@@ -68,6 +68,10 @@ define('MAIL_FROM_EMAIL', 'no-responder@losdogosoriginales.com');
 define('MAIL_FROM_NAME', SITE_NAME);
 
 // ---------------------------------------------------------------------
-// Zona horaria
+// Zona horaria y codificación
 // ---------------------------------------------------------------------
 date_default_timezone_set('America/Mexico_City');
+
+// Red de seguridad: si algún punto de entrada no fija el header manualmente,
+// esto evita que PHP use el charset por defecto del hosting (a veces no es UTF-8).
+ini_set('default_charset', 'UTF-8');

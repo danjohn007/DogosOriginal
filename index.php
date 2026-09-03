@@ -8,6 +8,8 @@
 define('SITE_ACCESS', true);
 session_start();
 
+header('Content-Type: text/html; charset=UTF-8');
+
 require_once __DIR__ . '/config.php';
 
 require __DIR__ . '/includes/header.php';
